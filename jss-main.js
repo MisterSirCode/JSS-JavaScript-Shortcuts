@@ -1,3 +1,6 @@
+const $ = document.querySelector.bind(document);
+const $$ = document.querySelectorAll.bind(document);
+
 Math.randInt = function(min, max) { 
     min = Math.ceil(min); 
     max = Math.floor(max); 
